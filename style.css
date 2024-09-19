@@ -268,3 +268,41 @@ body {
   font-size: 2vw;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  #page1 h1 {
+    font-size: 9vw;
+    font-weight: 400;
+    line-height: 10vw;
+    letter-spacing: 0px;
+    padding: 20px 40px;
+  }
+  .elem h2 {
+    font-size: 11vw;
+    font-weight: 300;
+    line-height: 12vw;
+  }
+  .image-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+  .image-div {
+    height: 100vw;
+    width: 80vw;
+    background-color: red;
+    margin: 40px 11px;
+  }
+  .overlay p {
+    font-size: 5vw;
+    line-height: 8vw;
+  }
+  #loader h1 {
+    font-size: 9vw;
+    font-weight: 400;
+    line-height: 10vw;
+    letter-spacing: 0px;
+    padding: 20px 40px;
+  }
+}
